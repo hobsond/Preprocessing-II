@@ -1,1 +1,20 @@
 // Navigation Styles here
+
+nav{
+    width: 50%;
+    .flex(row,space-between,center);
+    
+    @media @mobile{
+       width: 100%;
+       margin-top: 8%;
+       
+      }
+    a{
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: black;
+        @media @mobile{
+            margin: 0 1%;
+        }
+    }
+}
